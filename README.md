@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # HORAND Partnership
 
 Платформа для розподілу доходів між співвласниками компаній та проєктів.
@@ -232,3 +233,6 @@ docker-compose down
 # Зупинити і видалити дані БД
 docker-compose down -v
 ```
+=======
+# horand-partnership
+>>>>>>> 18a4d11ea87fcefc4d3b668e90f57bba84bd8362
