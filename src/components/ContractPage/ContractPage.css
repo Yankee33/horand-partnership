@@ -1,0 +1,168 @@
+.contract-wrapper {
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  background: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 100px;
+}
+
+/* Title */
+.contract-main-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1a1a1a;
+  padding: 24px 20px 8px;
+}
+
+/* Document body */
+.contract-body {
+  padding: 8px 20px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.contract-doc-title {
+  font-size: 13px;
+  font-weight: 400;
+  color: #1a1a1a;
+  text-align: center;
+  margin: 16px 0 12px;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+
+.contract-text {
+  font-size: 13px;
+  color: #333;
+  line-height: 1.7;
+  margin-bottom: 10px;
+}
+
+.contract-section-title {
+  font-size: 13px;
+  font-weight: 400;
+  color: #1a1a1a;
+  margin: 14px 0 6px;
+}
+
+.contract-subsection {
+  font-size: 13px;
+  color: #333;
+  line-height: 1.7;
+  margin-bottom: 6px;
+}
+
+.contract-owner-line {
+  font-size: 13px;
+  color: #333;
+  margin: 4px 0;
+  padding-left: 8px;
+}
+
+/* Signature section */
+.contract-signatures {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contract-signature-block {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.contract-signature-role {
+  font-size: 13px;
+  font-weight: 400;
+  color: #1a1a1a;
+}
+
+.contract-signature-name {
+  font-size: 13px;
+  color: #333;
+}
+
+.contract-date-line {
+  font-size: 13px;
+  color: #333;
+  margin-top: 8px;
+}
+
+.contract-sign-label {
+  font-size: 12px;
+  color: #aaa;
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.contract-sign-box {
+  border: 1.5px solid #c084fc;
+  border-radius: 10px;
+  height: 80px;
+  width: 100%;
+}
+
+/* Footer button */
+.contract-footer {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 480px;
+  background: #fff;
+  padding: 12px 20px 24px;
+  border-top: 1px solid #f0f0f0;
+}
+
+.contract-confirm-btn {
+  width: 100%;
+  background: #823deb;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 16px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.contract-confirm-btn:hover {
+  background: #a164d6;
+}
+
+@media (max-width: 360px) {
+  .contract-main-title { font-size: 16px; }
+  .contract-text, .contract-subsection, .contract-owner-line { font-size: 12px; }
+}
+
+.contract-export-btn {
+  width: 100%;
+  background: #fff;
+  color: #7b2fbe;
+  border: 2px solid #7b2fbe;
+  border-radius: 10px;
+  padding: 13px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-bottom: 10px;
+}
+
+.contract-export-btn:hover {
+  background: #f3e8ff;
+}
+
+.contract-export-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}

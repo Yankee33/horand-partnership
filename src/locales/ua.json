@@ -1,0 +1,116 @@
+{
+  "common": {
+    "continue": "Продовжити",
+    "confirm": "Підтвердити",
+    "makeChanges": "Внести зміни",
+    "addPhoto": "Додати фото",
+    "photoAdded": "Фото додано ✓",
+    "nav": {
+      "home": "Home",
+      "partners": "Partners",
+      "dashboard": "Dashboard",
+      "add": "Add",
+      "inventory": "Inventory",
+      "agreement": "Agreement",
+      "profile": "Profile"
+    }
+  },
+  "home": {
+    "title": "Ми допоможемо Вам почати побудувати бізнес разом",
+    "description": "Ми допоможемо визначити долю кожного зі співвласників, розподіл частки майбутніх доходів, розподіл доходів з проектів або розподіл частки доходів з клієнтів.",
+    "getStarted": "Get Started",
+    "footer": "Streamline your inventory process today"
+  },
+  "login": {
+    "title": "HORAND Partnership",
+    "subtitle": "Login to manage your inventory",
+    "username": "Username",
+    "usernamePlaceholder": "Enter your username",
+    "password": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "forgotPassword": "Forgot password?",
+    "loginBtn": "Login",
+    "orContinue": "Or continue with",
+    "noAccount": "Don't have an account?",
+    "signUp": "Sign up",
+    "errors": {
+      "usernameRequired": "Введіть ім'я користувача",
+      "usernameMin": "Мінімум 3 символи",
+      "passwordRequired": "Введіть пароль",
+      "passwordMin": "Пароль має бути не менше 6 символів"
+    }
+  },
+  "register": {
+    "title": "HORAND Partnership",
+    "subtitle": "Створіть акаунт",
+    "fullName": "ПІП",
+    "fullNamePlaceholder": "Іваненко Іван Іванович",
+    "email": "Email",
+    "emailPlaceholder": "example@email.com",
+    "password": "Пароль",
+    "passwordPlaceholder": "Мінімум 6 символів",
+    "confirmPassword": "Підтвердіть пароль",
+    "confirmPasswordPlaceholder": "Повторіть пароль",
+    "registerBtn": "Зареєструватись",
+    "haveAccount": "Вже маєте акаунт?",
+    "signIn": "Увійти",
+    "strength": {
+      "weak": "Слабкий",
+      "medium": "Середній",
+      "strong": "Надійний"
+    },
+    "errors": {
+      "fullNameRequired": "Введіть ПІП",
+      "fullNameMin": "Мінімум 3 символи",
+      "emailRequired": "Введіть email",
+      "emailInvalid": "Невірний формат email",
+      "passwordRequired": "Введіть пароль",
+      "passwordMin": "Мінімум 6 символів",
+      "confirmRequired": "Підтвердіть пароль",
+      "confirmMismatch": "Паролі не співпадають"
+    }
+  },
+  "distribution": {
+    "companyName": "Назва компанії",
+    "projectName": "Назва проєкту",
+    "enterName": "Вкажіть назву",
+    "namePlaceholder": "ввести назву компанії || проєкту",
+    "ownerName": "ПІП {{position}} співвласника",
+    "ownerNamePlaceholder": "піп співвласника",
+    "ownerShare": "Частка компанії {{position}} співвласника (1% - 99%)",
+    "ownerSharePlaceholder": "введіть __%",
+    "addOwner": "Додати нового співвласника",
+    "totalShare": "Сума часток:",
+    "errors": {
+      "nameRequired": "Введіть назву",
+      "ownerNameRequired": "Введіть ПІП співвласника",
+      "shareRequired": "Введіть частку",
+      "shareRange": "Частка має бути від 1 до 99%",
+      "totalShare": "Сума часток має дорівнювати 100%. Зараз: {{total}}%"
+    }
+  },
+  "incomeTypes": {
+    "title": "Розподіл інших видів майбутнього доходу",
+    "project": "Додати розподіл доходів з проекту",
+    "clients": "Додати розподіл доходів з перших клієнтів компанії",
+    "profit": "Додати розподіл доходів з чистого прибутку компанії",
+    "sum": "Сума:",
+    "selectAtLeastOne": "Оберіть хоча б один тип доходу",
+    "errors": {
+      "totalShare": "Сума має бути 100%. Зараз: {{total}}%"
+    }
+  },
+  "summary": {
+    "title": "Список співвласників і розподіл доходів",
+    "companyShare": "Частка компанії '{{name}}' – {{share}}%",
+    "projectIncome": "Дохід з проекту '{{name}}' – {{share}}%",
+    "clientsIncome": "Дохід з перших 30 клієнтів – {{share}}%",
+    "profitIncome": "Частка з чистого прибутку компанії – {{share}}%",
+    "company": "Компанія '{{name}}'"
+  },
+  "contract": {
+    "title": "Договір про співпрацю",
+    "docTitle": "ДОГОВІР ПРО СПІВВЛАСНІСТЬ ТА РОЗПОДІЛ ДОХОДІВ",
+    "confirmBtn": "Підтвердити"
+  }
+}

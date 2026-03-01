@@ -1,0 +1,116 @@
+{
+  "common": {
+    "continue": "Continue",
+    "confirm": "Confirm",
+    "makeChanges": "Make Changes",
+    "addPhoto": "Add photo",
+    "photoAdded": "Photo added ✓",
+    "nav": {
+      "home": "Home",
+      "partners": "Partners",
+      "dashboard": "Dashboard",
+      "add": "Add",
+      "inventory": "Inventory",
+      "agreement": "Agreement",
+      "profile": "Profile"
+    }
+  },
+  "home": {
+    "title": "We will help you start building a business together",
+    "description": "We will help determine each co-owner's share, distribution of future income shares, distribution of income from projects or distribution of income shares from clients.",
+    "getStarted": "Get Started",
+    "footer": "Streamline your inventory process today"
+  },
+  "login": {
+    "title": "HORAND Partnership",
+    "subtitle": "Login to manage your inventory",
+    "username": "Username",
+    "usernamePlaceholder": "Enter your username",
+    "password": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "forgotPassword": "Forgot password?",
+    "loginBtn": "Login",
+    "orContinue": "Or continue with",
+    "noAccount": "Don't have an account?",
+    "signUp": "Sign up",
+    "errors": {
+      "usernameRequired": "Enter username",
+      "usernameMin": "Minimum 3 characters",
+      "passwordRequired": "Enter password",
+      "passwordMin": "Password must be at least 6 characters"
+    }
+  },
+  "register": {
+    "title": "HORAND Partnership",
+    "subtitle": "Create an account",
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "John Smith",
+    "email": "Email",
+    "emailPlaceholder": "example@email.com",
+    "password": "Password",
+    "passwordPlaceholder": "Minimum 6 characters",
+    "confirmPassword": "Confirm Password",
+    "confirmPasswordPlaceholder": "Repeat password",
+    "registerBtn": "Register",
+    "haveAccount": "Already have an account?",
+    "signIn": "Sign in",
+    "strength": {
+      "weak": "Weak",
+      "medium": "Medium",
+      "strong": "Strong"
+    },
+    "errors": {
+      "fullNameRequired": "Enter full name",
+      "fullNameMin": "Minimum 3 characters",
+      "emailRequired": "Enter email",
+      "emailInvalid": "Invalid email format",
+      "passwordRequired": "Enter password",
+      "passwordMin": "Minimum 6 characters",
+      "confirmRequired": "Confirm password",
+      "confirmMismatch": "Passwords do not match"
+    }
+  },
+  "distribution": {
+    "companyName": "Company name",
+    "projectName": "Project name",
+    "enterName": "Enter name",
+    "namePlaceholder": "enter company || project name",
+    "ownerName": "Full name of co-owner {{position}}",
+    "ownerNamePlaceholder": "co-owner full name",
+    "ownerShare": "Company share of co-owner {{position}} (1% - 99%)",
+    "ownerSharePlaceholder": "enter __%",
+    "addOwner": "Add new co-owner",
+    "totalShare": "Total shares:",
+    "errors": {
+      "nameRequired": "Enter name",
+      "ownerNameRequired": "Enter co-owner full name",
+      "shareRequired": "Enter share",
+      "shareRange": "Share must be between 1 and 99%",
+      "totalShare": "Total shares must equal 100%. Currently: {{total}}%"
+    }
+  },
+  "incomeTypes": {
+    "title": "Distribution of other future income types",
+    "project": "Add project income distribution",
+    "clients": "Add income distribution from first clients",
+    "profit": "Add net profit income distribution",
+    "sum": "Sum:",
+    "selectAtLeastOne": "Select at least one income type",
+    "errors": {
+      "totalShare": "Sum must be 100%. Currently: {{total}}%"
+    }
+  },
+  "summary": {
+    "title": "Co-owners list and income distribution",
+    "companyShare": "Company share '{{name}}' – {{share}}%",
+    "projectIncome": "Project income '{{name}}' – {{share}}%",
+    "clientsIncome": "Income from first 30 clients – {{share}}%",
+    "profitIncome": "Net profit share – {{share}}%",
+    "company": "Company '{{name}}'"
+  },
+  "contract": {
+    "title": "Partnership Agreement",
+    "docTitle": "CO-OWNERSHIP AND INCOME DISTRIBUTION AGREEMENT",
+    "confirmBtn": "Confirm"
+  }
+}
